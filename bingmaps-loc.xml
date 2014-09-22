@@ -1,0 +1,12 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http:/www.mozilla.org/2006/browser/search/">
+<ShortName>Bing Maps Loc</ShortName>
+<Description>Bing Maps Location Search</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16" type="image/x-icon">http://www.bing.com/s/a/bing_p.ico</Image>
+<Url type="text/html" method="get" template="http://www.bing.com/maps/default.aspx">
+  <Param name="q" value="{searchTerms}"/>
+  <Param name="obox" value="1"/>
+</Url>
+<moz:SearchForm>http://www.bing.com/maps/</moz:SearchForm>
+</OpenSearchDescription>
