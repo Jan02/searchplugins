@@ -1,0 +1,12 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http:/www.mozilla.org/2006/browser/search/">
+<ShortName>arstechnica</ShortName>
+<Description>arstechnica Search</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16" type="image/x-icon">http://arstechnica.com/favicon.ico</Image>
+<Url type="text/html" method="get" template="http://arstechnica.com/search/">
+  <Param name="q" value="{searchTerms}"/>
+  <Param name="ie" value="UTF-8"/>
+</Url>
+<moz:SearchForm>http://arstechnica.com/</moz:SearchForm>
+</OpenSearchDescription>
