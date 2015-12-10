@@ -1,0 +1,14 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http:/www.mozilla.org/2006/browser/search/">
+<ShortName>GameSpot</ShortName>
+<Description>GameSpot Search</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16" type="image/x-icon">http://GameSpot.com/favicon.ico</Image>
+<Url type="text/html" method="get" template="http://www.GameSpot.com/search/">
+  <Param name="q" value="{searchTerms}"/>
+  <Param name="indices[]" value="franchise"/>
+  <Param name="indices[]" value="game"/>
+  <Param name="indices[]" value="platform"/>
+</Url>
+<moz:SearchForm>http://GameSpot.com/</moz:SearchForm>
+</OpenSearchDescription>
