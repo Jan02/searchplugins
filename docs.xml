@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-<ShortName>wordnik</ShortName>
-<Description>wordnik Search</Description>
-<Url type="text/html" method="get" template="https://docs.com/en-us/search?q="/>
+<ShortName>docs.com</ShortName>
+<Description>docs Search</Description>
+<Url type="text/html" method="get" template="https://docs.com/en-us/search?q={searchTerms}"/>
 <Image width="16" height="16" type="image/x-icon">https://docs.com/1670105409_Images/favicon.ico</Image>
 <InputEncoding>UTF-8</InputEncoding>
 <moz:SearchForm>https://docs.com/</moz:SearchForm>
