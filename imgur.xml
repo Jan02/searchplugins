@@ -4,7 +4,7 @@
 <ShortName>imgur</ShortName>
 <Description>imgur Search</Description>
 <Url type="text/html" method="get" template="http://imgur.com/search?q={searchTerms}"/>
-<Image width="16" height="16" type="image/x-icon">http:http://s.imgur.com/images/favicon-16x16.png</Image>
+<Image width="16" height="16" type="image/x-icon">http://s.imgur.com/images/favicon-16x16.png</Image>
 <InputEncoding>UTF-8</InputEncoding>
-<moz:SearchForm>http://imgur.com</moz:SearchForm>
+<moz:SearchForm>https://imgur.com</moz:SearchForm>
 </OpenSearchDescription>
